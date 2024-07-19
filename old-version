@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Добро пожаловать в нашу компанию!</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			font-size: 14px;
+			line-height: 1.5;
+			color: #333;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			max-width: 600px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #fff;
+			border: 1px solid #ddd;
+		}
+		h1, h2, h3, h4, h5, h6 {
+			margin-top: 0;
+			margin-bottom: 10px;
+			color: #333;
+			line-height: 1.2;
+			font-weight: bold;
+		}
+		p {
+			margin-top: 0;
+			margin-bottom: 10px;
+			color: #333;
+			line-height: 1.5;
+		}
+		a {
+			color: #0072c6;
+			text-decoration: none;
+		}
+		a:hover {
+			color: #005e9c;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<<h1>Ласкаво просимо до компанії: <strong>$Company</strong>!</h1>
+		<p>Ми раді повідомити вам, що для вас було створено корпоративний обліковий запис Microsoft. Тепер ви можете почати роботу з нашими корпоративними сервісами та додатками.</p>
+		<h2>Ваші облікові дані</h2>
+		<p>Ім'я користувача: <strong>$username@$UPN_suffix</strong></p>
+		<p>Тимчасовий пароль: <strong>$password</strong></p>
+		<p>Щоб розпочати роботу, вам необхідно виконати такі кроки:</p>
+	<ol>
+		<li>Отримати корпоративний пристрій</li>
+		<li>Ввеcти свої облікові дані</li>
+		<li>Розпочати роботу</li>
+	</ol>
+	<p>При роботі на особисному пристрої, необхідно завантажити з PlayMarket застосунок "Корпоративний портал" і авторизуватися в ньому.</p>
+	<p>Якщо у вас виникнуть питання або проблеми з доступом, будь ласка, зв'яжіться з нашою службою підтримки support@bgv.com.ua.</p>
+	<p>З повагою,<br>Команда <strong>BGV Group Management</strong></p>
+</div>
+</body>
+</html>
